@@ -1,0 +1,272 @@
+@media screen and (max-width: 1280px)
+{
+body
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+header
+{
+	display: flex;
+	width: 100%;
+}
+section
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+ .rounded img
+ {
+  	border: solid;
+  	background-color: orange;
+  	word-spacing: 0;
+  	display: flex;
+  	justify-content: space-around;
+}
+
+
+    font-family: 'florante_at_lauraregular';
+    src: url('FLORLRG_-webfont.eot');
+    src: url('FLORLRG_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FLORLRG_-webfont.woff2') format('woff2'),
+         url('FLORLRG_-webfont.woff') format('woff'),
+         url('FLORLRG_-webfont.ttf') format('truetype'),
+         url('FLORLRG_-webfont.svg#florante_at_lauraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'redressedregular';
+    src: url('Redressed-webfont.eot');
+    src: url('Redressed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Redressed-webfont.woff2') format('woff2'),
+         url('Redressed-webfont.woff') format('woff'),
+         url('Redressed-webfont.ttf') format('truetype'),
+         url('Redressed-webfont.svg#redressedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+
+    font-family: 'cac_champagneregular';
+    src: url('cac_champagne-webfont.eot');
+    src: url('cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cac_champagne-webfont.woff') format('woff'),
+         url('cac_champagne-webfont.ttf') format('truetype'),
+         url('cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+}
+
+body
+{
+	font-family:'redressedregular', Arial, serif;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+header
+{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	width:25%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	text-align:right;
+	font-weight: bold;
+	font-size: large;
+	color: orange;
+	background: blue;
+}
+header h2
+{
+	margin-top: 170px;
+	text-decoration: none;
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+ 	align-items : center;
+	text-align: left;
+	background: black;
+	height: 50px;
+	width: 100%;
+	line-height: 100%;
+	color: orange;
+}
+
+
+
+header p
+{
+	display: block;
+	justify-content: center;
+	text-align: left;
+	padding: 10px;
+	margin-bottom: 0;
+	margin-right: 10px
+	color:orange;
+	line-height: 20px;
+}
+h2
+{
+	font-family: 'florante_at_lauraregular', Arial, sans-serif;
+	font-size: x-large;
+	text-align: left;
+	border-bottom:1px solid black;
+}
+ol
+{
+	list-style-type: none;
+}
+ul 
+{
+	position: relative;
+	list-style-type: none;
+	top: 50px;
+	list-style-type: none;
+}
+section
+{
+	text-align: left;
+  	background-color: orange;
+	right:0px;
+  	top: 0px;
+	width: 75%;
+    padding: 10px;
+}
+.roundedImage
+{
+	padding: auto;
+	justify-content: space-around;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	overflow:hidden;
+   	text-align: center;
+    border-radius:375px;
+    width:250px;
+    height:250px;
+  }
+  .roundedImage img
+  {
+  	display: flex;
+  	justify-content: center;
+  	 text-align: center;
+  }
+  .rounded img
+  {
+  	border: solid;
+  	background-color: orange;
+  	word-spacing: 30px;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+  	border-radius: 60px;
+  	width: 40px;
+  	height: 40px;
+  	left: 0;
+  	bottom: 0;
+  	margin: 10px;
+  	text-align: center;
+  	
+
+  }
+ .expérience img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: #555;
+}
+
+.expérience h2 {
+  position: relative;
+  top: 200px;
+  left: 10px;
+}
+ .compétences img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: #555;
+}
+
+.compétences h2 {
+  position: relative;
+  top: 300px;
+  left: 10px;
+}
+.rounded
+{
+	display: flex;
+    border-radius:400px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ 
+section img
+{
+	border-radius:400px;
+    width:70px;
+    height:70px;
+}
+.contact
+{
+	display: flex;
+  	display: inline-block;
+	align-items: left;
+}
+h1
+{
+	font-family: 'florante_at_lauraregular', Arial, sans-serif;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: left;
+	color: blue;
+	word-wrap: break-word;
+}
+.infopersonnelle
+{
+	margin-top: 90px;
+	padding: 35px;
+}
+.skills
+{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: space-around;
+}
+.software
+{
+	display: flex;
+	flex-direction: column;
+	line-height: 5px;
+}
+.language
+{
+	display: flex;
+	flex-direction: column;
+	line-height: 5px;
+}
+.skills h3
+{
+font-family: 'redressedregular',Arial;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+figure
+{
+	margin-top: 5px
+	margin-bottom: 160px;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
