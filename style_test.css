@@ -1,0 +1,97 @@
+header
+{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: solid;
+	text-align:center;
+	font-weight: bold;
+	font-size: 40px;
+	color: #711FDE;
+}
+
+body
+{
+	background-color: aqua;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+h2
+{
+	font-size: 14px;
+}
+ul 
+{
+list-style-type: none;
+}
+#coteneur
+
+
+.compétences
+{
+	text-align: right;
+	font-style: italic;
+	font-size: 15px;
+	color: #D56F1D;
+}
+.formation
+{
+	text-align: right;
+	font-style: italic;
+	font-size: 15px;
+	color: #D56F1D;
+}
+#block_page
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+	background-color: fuchsia;
+	color: lime;
+	display:flex;
+	justify-content: left;
+	flex-wrap: wrap-reverse;
+	color: #D56F1D;
+}
+.liseret
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+	border: 2px black solid;
+ 	color: red;
+	width: 50%;
+	height: 500px;
+ 
+}
+section
+{
+	border: 6px teal groove;
+	  width: 500px;
+    height: 100%;
+    text-align: justify;
+    overflow: auto;
+    padding: 12px;
+}
+.roundedImage
+{
+	position: static;
+	top: 40;
+	left:100;
+	overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    width:120px;
+    height:120px;
+  	margin-left: 600px;
+}
